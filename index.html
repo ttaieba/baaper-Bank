@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section class=" text-center p-5 my-5">
+            <h1 class=" text-5xl ">Lets get some <span class="text-pink-600 	">moooooney!!!</span> </h1>
+        </section>
+    </header>
+    <main>
+        <section class=" text-center p-5 ml-8">
+            <div class=" grid grid-cols-3 ">
+                <div class="bg-green-200 p-5 rounded w-3/4 ">
+                    <h4>Deposit</h4>
+                    <h2 class="font-bold text-4xl">$ <span id="show-amount">00</span> </h2>
+                </div>
+                <div class="bg-blue-200 p-5 rounded w-3/4  ">
+                    <h4>Withdraw</h4>
+                    <h2 class="font-bold text-4xl">$ <span id="withdraw-Amount">00</span> </h2>
+                </div>
+                <div class="bg-yellow-200 p-5 rounded w-3/4 ">
+                    <h4>DBalance</h4>
+                    <h2 class="font-bold text-4xl">$ <span id="balance-up">1240</span> </h2>
+                </div>
+            </div>
+
+        </section>
+        <section class=" text-left p-5 ml-8">
+            <h1 class="text-black-100 font-normal text-lg">Transactions Amounts</h1>
+            <div class=" grid grid-cols-2 gap-3 ">
+                <div class="bg-blue-200 p-5 rounded ">
+                    <h4>Please Deposit</h4>
+                    <input id="input-amount" class="px-5 rounded " type="text" placeholder=" amount you want to dep">
+                    <br>
+                    <button id="dep" class=" bg-yellow-400 px-5 py-2 rounded my-2">Deposit</button>
+                </div>
+                <div class="bg-pink-200 p-5 rounded ">
+                    <h4>Please Withdraw</h4>
+                    <input id="exit-amount" class="px-5 rounded " type="text" placeholder=" amount you want to dep">
+                    <br>
+                    <button id="wit" class=" bg-yellow-400 px-5 py-2 rounded my-2">Withdraw</button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
